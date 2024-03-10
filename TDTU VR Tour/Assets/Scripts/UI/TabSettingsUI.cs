@@ -6,19 +6,6 @@ public class TabSettingsUI : MonoBehaviour
 {
     public List<GameObject> tabButtons;
     public List<GameObject> tabContents;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void HideAllTabs()
     {
         foreach (var tab in tabContents)
